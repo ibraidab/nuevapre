@@ -237,6 +237,67 @@
                 text-align: center;
               }
 
+              .BoxMP {
+                
+                width: 120px;
+                height: 300px;
+                position: center;
+                border-radius: 15px;
+                left: 0;
+                margin:50px auto;
+                /*margin-left:50px auto;
+                margin-right:50px auto; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+              }
+
+              .BoxMP:hover {
+                width:25%;
+              }
+
+              .BoxHS {
+                width: 420px; 
+                height: 25px; 
+                position: center;
+                border-radius: 15px;
+                left: 0;
+                margin:50px auto;
+                /*margin-left:50px auto;
+                margin-right:50px auto; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+              }
+
+              .BoxHS:hover {
+                height: 50%;
+              }
+
+              .BoxMP > p {
+                font-family: sans-serif;
+                color: white;
+                font-size: 0.9rem;
+                font-weight: bold;
+                text-align: justify;
+                text-justify: center;
+                margin: 50px;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+              }
+
+              .BoxHS > p {
+                font-family: sans-serif;
+                color: white;
+                font-size: 0.9rem;
+                font-weight: bold;
+                text-align: justify;
+                text-justify: center;
+                margin: 50px;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+              }
+
 
 
               .Box2 > p {
@@ -247,6 +308,12 @@
                 text-align: justify;
                 text-justify: center;
                 margin: 50px;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+              }
+
+              .Box2:hover {
+                width:15%;
+                height: 90%;
               }
 
               .vtexBox2 {
@@ -261,8 +328,14 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
               }
 
+              .vtexBox2:hover {
+                width:550px;
+                height: 550px;
+                background-color: #db1187ff;
+              }
 
 
               .vtexBox2 > p {
@@ -273,11 +346,20 @@
               }
 
               .sapBox2 {
+                width: 700px; 
+                height: 700px;
                 background-color: #119bdb99;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+              }
+
+              .sapBox2:hover {
+                width:750px;
+                height: 750px;
+                background-color: #119bdbff;
               }
 
 
