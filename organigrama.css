@@ -71,6 +71,9 @@
                 margin: 50px;
               }
 
+
+
+
               .background-rectangle {
                 background-color: #15aa7f;
                 width: 105%;
@@ -204,6 +207,158 @@
                 border-color: transparent transparent rgb(190, 182, 110) transparent;
               }
               .flechaH:before {
+                content: '';
+                  position: absolute;
+                  bottom: -6px;
+                  left: -4px;
+                  border-style: solid;
+                  transform: rotate(60deg);
+                  border-width: 0 10px 20px 10px;
+                  border-color: transparent transparent rgb(190, 182, 110) transparent;
+              }
+
+              /*Hoja dos color*/
+
+              /*box2*/
+
+              .Box2 {
+                
+                width: 120px;
+                height: 100px;
+                position: center;
+                border-radius: 15px;
+                left: 0;
+                margin:50px auto;
+                /*margin-left:50px auto;
+                margin-right:50px auto; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+              }
+
+
+
+              .Box2 > p {
+                font-family: sans-serif;
+                color: white;
+                font-size: 0.9rem;
+                font-weight: bold;
+                text-align: justify;
+                text-justify: center;
+                margin: 50px;
+              }
+
+              .vtexBox2 {
+                background-color: #db118799;
+                width: 500px;
+                height: 500px;
+                position: center;
+                border-radius: 500px;
+                left: 0;
+                margin:0% auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+              }
+
+
+
+              .vtexBox2 > p {
+                font-family: sans-serif;
+                color: white;
+                font-size: 1.8rem;
+                font-weight: bold;
+              }
+
+              .sapBox2 {
+                background-color: #119bdb99;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+              }
+
+
+
+              .sapBox2 > p {
+                font-family: sans-serif;
+                color: white;
+                font-size: 4.8rem;
+                font-weight: bold;
+              }
+
+              li {
+                font-family: sans-serif;
+                color: white;
+                font-size: 1.5rem;
+                font-weight: bold;
+              }
+
+              ul {
+                font-family: sans-serif;
+                color: white;
+                font-size: 1.5rem;
+                font-weight: bold;
+              }
+
+              /*flecha horizonta2*/
+
+              .flechaH2 {
+                width: 5px;
+                height: 50px;
+                background-color: #beb664;
+                /* Rotate .flechaH */
+                -ms-transform: rotate(90deg);
+                /* IE 9 */
+                -webkit-transform: rotate(90deg);
+                /* Chrome, Safari, Opera */
+                transform: rotate(90deg);
+                transform-origin: bottom left;
+
+              }
+
+              .flechaH2 > p {
+                font-family: sans-serif;
+                color: white;
+                font-size: 1.8rem;
+                font-weight: bold;
+                                /* Rotate .flechaH */
+                -ms-transform: rotate(90deg);
+                /* IE 9 */
+                -webkit-transform: rotate(90deg);
+                /* Chrome, Safari, Opera */
+                transform: rotate(90deg);
+                transform-origin: bottom left;
+              }
+
+              .verticalText{
+                font-family: sans-serif;
+                color: white;
+                font-size: 2.8rem;
+                font-weight: bold;
+                                /* Rotate .flechaH */
+                -ms-transform: rotate(90deg);
+                /* IE 9 */
+                -webkit-transform: rotate(90deg);
+                /* Chrome, Safari, Opera */
+                transform: rotate(90deg);
+                transform-origin: bottom left;
+              }
+
+
+              .flechaH2:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-style: solid;
+                transform: translate(-40%, -50%);
+                border-width: 0 10px 20px 10px;
+                border-color: transparent transparent rgb(190, 182, 110) transparent;
+              }
+              .flechaH2:before {
                 content: '';
                   position: absolute;
                   bottom: -6px;
