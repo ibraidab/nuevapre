@@ -611,13 +611,20 @@
                 width: 12.5rem;
                 height: 12.5rem;
                 border-radius: 50%;
-                background: #154678;
+                background: #15467899;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
                 margin:0px auto;
-                padding:3%
+                padding:3%;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+              }
+
+              .circulo:hover {
+                width:12.9rem;
+                height: 12.9rem;
+                background: #154678ff;
               }
               
               .circulo > p {
